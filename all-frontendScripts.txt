@@ -107,7 +107,8 @@
    }
 })();
 //--- END ---
-//--- FILE: main_cust.js ---
+
+//--- FILE: main_cust.js ---
 
 document.addEventListener("DOMContentLoaded", () => {
    // ----- Config -----
@@ -685,7 +686,8 @@ document.addEventListener("DOMContentLoaded", () => {
    window.addEventListener("beforeunload", safeClearTimers);
 });
 //--- END ---
-//--- FILE: mgmt_category.js ---
+
+//--- FILE: mgmt_category.js ---
 
 function updateTabulatorColumnTitles(table, titleMap) {
    try {
@@ -1154,7 +1156,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 //--- END ---
-//--- FILE: mgmt_content.js ---
+
+//--- FILE: mgmt_content.js ---
 
 (() => {
    'use strict';
@@ -2748,7 +2751,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 })();
 //--- END ---
-//--- FILE: mgmt_user.js ---
+
+//--- FILE: mgmt_user.js ---
 
 const updateTabulatorColumnTitles = (table, titleMap) => {
    try {
@@ -3280,7 +3284,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 //--- END ---
-//--- FILE: mgmt_usergroup.js ---
+
+//--- FILE: mgmt_usergroup.js ---
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -4161,7 +4166,8 @@ document.addEventListener("DOMContentLoaded", () => {
    initGroupTable();
 });
 //--- END ---
-//--- FILE: mgmt_userperm.js ---
+
+//--- FILE: mgmt_userperm.js ---
 
 document.addEventListener("DOMContentLoaded", async () => {
 
@@ -4317,7 +4323,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 })
 //--- END ---
-//--- FILE: view_lib.js ---
+
+//--- FILE: view_lib.js ---
 
 (() => {
    // --- Small helpers -------------------------------------------------------
@@ -4852,3 +4859,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 })();
 //--- END ---
+
+//--- EOF ---
